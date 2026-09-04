@@ -1,0 +1,13 @@
+# GNAT build artefacts
+*.ali
+*.o
+*.bexch
+*.cswi
+b__*
+/src/pagerank
+# program output
+*.ord
+*.p
+# noise
+.DS_Store
+__pycache__/
