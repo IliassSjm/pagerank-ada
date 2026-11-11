@@ -3,7 +3,7 @@
 Reads the same `.net` format, computes PageRank by dense power iteration, and
 compares against the `.p` (weights) and `.ord` (ranking) files the Ada program
 writes.  This is a verification harness written in 2026, not part of the
-original 2023 submission.
+original 2020 submission.
 
 Usage
 -----
