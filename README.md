@@ -4,9 +4,10 @@ PageRank by power iteration on the Google matrix, written in Ada with two
 interchangeable storage backends: a dense `n × n` matrix and a hand-rolled
 CSR-style sparse structure (three lists `A`, `IA`, `JA`).
 
-ENSEEIHT first-year *projet long* (PIM, 2023). The Ada sources under `src/` are
-the original submission, unmodified. Everything under `tools/` and this README
-were written later, in 2026, to check that the original actually works.
+ENSEEIHT first-year *projet long* (PIM, 2023), done in a pair like every *projet
+long*. The Ada sources under `src/` are that two-person submission, unmodified.
+Everything under `tools/` and this README are mine, written later, in 2026, to
+check that the original actually works.
 
 ## The algorithm
 
@@ -104,12 +105,6 @@ data/      two sample graphs
 tools/     NumPy reference implementation and comparison harness
 legacy/    an earlier dense-only draft and a second sparse variant, kept for history
 ```
-
-## Attribution
-
-ENSEEIHT's *projet long* is done in pairs and I no longer have the submission
-paperwork, so I can't name my partner with confidence — if you were on this
-project with me, open an issue and I'll credit you properly.
 
 ## License
 
